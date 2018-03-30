@@ -1,0 +1,62 @@
+body {
+ 	margin: 0;
+}
+
+.bg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/nav.jpg);
+    height: auto;
+    background-size: 100% auto;
+}
+
+.btn-1 {
+    height: 3%;
+    width: 23%;
+    position: absolute;
+    top: 14.8%;
+    left: 17%;
+
+    z-index: 9999;
+}
+
+.btn-2 {
+    height: 3%;
+    width: 23%;
+    position: absolute;
+    top: 29.5%;
+    left: 62%;
+}
+
+.btn-3 {
+    height: 3%;
+    width: 23%;
+    position: absolute;
+    top: 44.2%;
+    left: 17%;
+}
+
+.btn-4 {
+    height: 3%;
+    width: 23%;
+    position: absolute;
+    top: 59.9%;
+    left: 62%;
+}
+
+.btn-5 {
+    height: 3%;
+    width: 23%;
+    position: absolute;
+    top: 74.6%;
+    left: 17%;
+}
+
+.btn-6 {
+    height: 3%;
+    width: 23%;
+    position: absolute;
+    top: 89.3%;
+    left: 62%;
+}
