@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-	<title></title>
-	<link rel="stylesheet" href="css/nav.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="css/nav.css">
 </head>
+
 <body>
-	<div class="bg">
-		<img src="images/egf.jpg" alt="导航" class="bg">
-	</div>
+    <div class="bg">
+        <img src="images/egf.jpg" alt="导航" class="bg">
+    </div>
+    <p class="t1-1">天猫国际Dr.Ci:Labo海外旗舰店</p>
+    <p class="t2-1">（长按复制下方淘口令，打开手机淘宝即可）</p>
+    <div id="btn" class="tkl-1" data-clipboard-text="￥QfSr0LQFiXz￥">
+        <span>￥QfSr0LQFiXz￥</span>
+    </div>
+    <script type="text/javascript" src="js/clipboard.min.js"></script>
+    <script>
+    var btn = document.getElementById('btn');
+    var clipboard = new ClipboardJS(btn);
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
 </body>
+
 </html>

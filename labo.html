@@ -10,5 +10,23 @@
 	<div class="bg">
 		<img src="images/labo.jpg" alt="导航" class="bg">
 	</div>
+	<p class="t1-4">天猫国际Dr.Ci:Labo海外旗舰店</p>
+    <p class="t2-4">（长按复制下方淘口令，打开手机淘宝即可）</p>
+    <div id="btn" class="tkl-4" data-clipboard-text="￥6wHB0LQGrmJ￥">
+        <span>￥6wHB0LQGrmJ￥</span>
+    </div>
+    <script type="text/javascript" src="js/clipboard.min.js"></script>
+    <script>
+    var btn = document.getElementById('btn');
+    var clipboard = new ClipboardJS(btn);
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
 </body>
 </html>
